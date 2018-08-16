@@ -24,8 +24,7 @@ class Route {
   };
 
   estimatedTime(peakHours){
-    return peakHours ? this.blocksTravelled() / 3 : this.blocksTravelled() / 2
-    ;
+    return peakHours ? this.blocksTravelled() / 2 : this.blocksTravelled() / 3;
   }
 
 }
