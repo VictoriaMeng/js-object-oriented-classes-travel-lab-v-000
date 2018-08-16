@@ -17,7 +17,7 @@ class Route {
   };
 
   blocksTravelled(){
-    const streets = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
+    const streets = Math.abs(this.endingLocation.vertical - this.beginningLocation.vertical);
     const avenues = 4;
     return streets + avenues;
   };
