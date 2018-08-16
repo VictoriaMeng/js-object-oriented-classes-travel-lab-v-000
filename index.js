@@ -17,7 +17,7 @@ class Route {
   }
 
   blocksTravelled(){
-    this.beginningLocation.vertical - this.endingLocation.vertical
+    const streets = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical)
   }
 
 }
