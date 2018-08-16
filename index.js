@@ -19,6 +19,6 @@ class Route {
 
   function route_parser(location) {
     return location.split(" ");
-  }
+  };
 
 }
