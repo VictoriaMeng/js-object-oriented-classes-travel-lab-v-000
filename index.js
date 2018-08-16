@@ -15,7 +15,7 @@ function route_parser(location) {
 
 
 class Route {
-  constructor(route_parser(beginningLocation), route_parser(endingLocation)) {
+  constructor(beginningLocation, endingLocation) {
 
     this.beginningLocation = beginningLocation;
     this.endingLocation = endingLocation;
