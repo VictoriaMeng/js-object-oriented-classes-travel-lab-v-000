@@ -23,4 +23,8 @@ class Route {
     return streets + avenues;
   };
 
+  estimatedTime(peakHours){
+    return peakHours ? blocksTravelled * 2 : blocksTravelled * 3;
+  }
+
 }
