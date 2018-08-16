@@ -14,10 +14,12 @@ class Route {
   constructor(beginningLocation, endingLocation) {
     this.beginningLocation = beginningLocation;
     this.endingLocation = endingLocation;
-  }
+  };
 
   blocksTravelled(){
-    const streets = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical)
-  }
+    const streets = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
+    const avenues = 3;
+    return streets + avenues;
+  };
 
 }
