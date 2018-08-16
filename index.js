@@ -11,14 +11,15 @@ class Driver {
 
 
 class Route {
+  function route_parser(location) {
+    return location.split(" ");
+  }
+  
   constructor(beginningLocation, endingLocation) {
 
     this.beginningLocation = beginningLocation;
     this.endingLocation = endingLocation;
   }
 
-  function route_parser(location) {
-    return location.split(" ");
-  };
 
 }
