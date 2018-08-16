@@ -17,6 +17,7 @@ class Route {
   };
 
   blocksTravelled(){
+    let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     const streets = Math.abs(this.endingLocation.vertical - this.beginningLocation.vertical);
     const avenues = 4;
     return streets + avenues;
