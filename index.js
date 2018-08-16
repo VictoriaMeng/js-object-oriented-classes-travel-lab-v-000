@@ -9,16 +9,16 @@ class Driver {
   };
 };
 
-function route_parser(location) {
-  return location.split(" ");
-}
-
 
 class Route {
   constructor(beginningLocation, endingLocation) {
 
     this.beginningLocation = beginningLocation;
     this.endingLocation = endingLocation;
+  }
+
+  function route_parser(location) {
+    return location.split(" ");
   }
 
 }
