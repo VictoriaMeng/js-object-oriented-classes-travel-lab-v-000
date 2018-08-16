@@ -8,3 +8,7 @@ class Driver {
     return new Date(year, 0, 0).getYear() - this.startDate.getYear();
   };
 };
+
+class Route {
+
+}
